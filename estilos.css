@@ -1,0 +1,25 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    padding: 25px 35px;
+    background-color: #29204a;
+    color: white;
+}
+
+.cartao {
+    width: 320px;
+    height: 250px;
+    margin: 30px;
+    padding: 20px;
+    background-color: #e8ddff;
+    border-radius: 15px;
+}
+
+.cartao-imagem {
+    width: 100%;
+}
