@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+body {
+    background-color: #f4f0fa;
+    font-family: Arial, sans-serif;
+}
+
 .cabecalho {
     padding: 25px 35px;
     background-color: #29204a;
@@ -13,13 +18,16 @@
 
 .cartao {
     width: 320px;
-    height: 250px;
-    margin: 30px;
+    min-height: 300px;
+    margin: 40px auto;
     padding: 20px;
     background-color: #e8ddff;
     border-radius: 15px;
+    text-align: center;
 }
 
 .cartao-imagem {
     width: 100%;
+    border-radius: 10px;
+    margin: 15px 0;
 }
